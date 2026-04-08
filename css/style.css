@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "bernadette";
+    src: url("fonts/bernadette.ttf");
+}
+.contador{
+    font-family: bernadette;
+    font-size: xx-large;
+}
+.btn-regist{
+    background-color: rgb(255, 214, 33);
+    animation: flutuar 3s ease-in-out infinite;
+    font-size: larger;
+}
+.btn-pre{
+    background-color: rgb(255, 214, 33);
+}
+.btn-user{
+    background-color: rgb(255, 214, 33);
+}
+.btn-pay{
+    background-color: rgb(255, 214, 33);
+}
+.nav-btn{
+    padding: 20px;
+}
+.main-content{
+    margin-bottom: 300px;
+}
+
+.log:hover{
+    color: white;
+}
+.nav-btn:hover{
+    background-color: white;
+}
+.nav-bar{
+    background-color: rgb(255, 214, 33);
+}
+
+@keyframes flutuar{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+footer{
+    background-color: rgb(255, 214, 33);
+}
+.main-logo{
+    animation: zoomOut 4s ease-in-out infinite;
+}
+.footer-icons{
+    animation: zoomIn 4s ease-in-out infinite;
+}
+@keyframes zoomIn {
+   0%{
+    transform: translateY(0);
+   }
+   40%{
+    transform: translateY(10px);
+   }
+   100%{
+    transform: translateY(0);
+   }
+}
+@keyframes zoomOut {
+   0%{
+    opacity: 0;
+    transform: translateY(5px);
+   }
+   50%{
+    opacity: 1;
+    transform: translateY(5px);
+   }
+   100%{
+    opacity: 0;
+    transform: translateY(5px);
+   }
+}
+.sub-btn{
+    background-color: rgb(255, 214, 33);
+}
+.college-title{
+    font-family: Absolute;
+    font-size: 45px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Cidade das Acacias</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo_brand.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <br>
+                <br>
+                <br>
+                <img src="img/logo_brand.png" class="d-block mx-auto" style="width: 25%;" alt="">
+                <div class="card shadow-sm">
+                    <div class="card-header text-center">
+                        Iniciar sessão
+                    </div>
+                    <div class="card-body px-4">
+                        
+                        
+                        <form action="login.php" method="post">
+                        <label class="form-label fw-light">Codigo do Aluno</label>
+                        <input class="form-control shadow-none mb-2" placeholder="ID" inputmode="numeric" name="user_id" id=""> 
+                        
+                        <label class="form-label fw-light">Password</label>
+                        <input class="form-control shadow-none  mb-2" placeholder="Password" type="password" name="password" id="">
+
+                        <div class="d-flex flex-column">
+                            <a href="#">Esqueceu a senha?</a>
+                            <a href="#">Criar conta</a>
+                        </div>
+                        <button class="btn btn-user  mt-3" type="submit">Entrar</button>
+                        </form>    
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>  
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

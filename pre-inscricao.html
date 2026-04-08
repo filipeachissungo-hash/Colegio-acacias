@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pré-Inscrição</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo_brand.png" type="image/x-icon">
+</head>
+<body>
+    <!-- logo -->
+    <div class="d-flex justify-content-center align-items-center my-0 main-logo">
+        <img src="img/Acacias.png"  width="200px" alt="">
+    </div>
+    <!-- Barra de navegacao -->
+    <div class="d-flex justify-content-between align-items-center nav-bar px-4 py-1">
+        <!-- Menu Principal -->
+        <nav class="mx-auto">
+            <ul class="d-flex list-unstyled  m-0 gap-5">
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="index.html">Pagina Inicial</a>
+                </li>
+
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="pre-inscricao.html">Pré-Inscrição</a>
+                </li>
+
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="pagamento.html">Pagamentos</a>
+                </li>
+
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="sobre-nos.html">Sobre-nós</a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- Botao Login -->
+        <div class="login">
+            <a class="text-decoration-none d-flex align-items-center text-dark gap-1" href="login.html">
+                <i class="bi bi-person log" style="font-size: 1.5em;"><small>Login</small></i>
+            </a>
+        </div>
+    </div>
+    <!-- Formulario -->
+    <div class="container p-4 shadow my-4 rounded">
+        <form action="" method="post">
+            <!-- Titulo do formulario 1 -->
+            <div class="card-header">
+                <h4 class="text-center">Dados do Aluno</h4>
+            </div>
+            <!-- Linha 1 -->
+            <div class="row p-4">
+                <div class="col-md-6">
+                    <label for="nome_completo" class="form-label">Nome completo</label>
+                    <input type="text" name="" placeholder="Nome completo"  class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="Data_de_nascimento" class="form-label">Data de nascimento</label>
+                    <input class="form-control" type="date" name="" id="">
+                </div>
+            </div>
+            <!-- Linha 2 -->
+            <div class="row p-4">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <label for="masculino" class="me-2">Masculino</label>
+                    <input type="radio" class="form-check-input me-5" name="method" id="">
+                    <label for="feminino" class="me-2">Feminino</label>
+                    <input type="radio" class="form-check-input" name="method" id="">
+                </div> 
+                <div class="col-md-4">
+                    <select class="form-select" name="" id="">
+                        <option value="" >Selecione</option>
+                        <option value="" >7 Classe</option>
+                        <option value="" >8 Classe</option>
+                        <option value="" >9 Classe</option>
+                        <option value="" >10 Classe</option>
+                        <option value="" >11 Classe</option>
+                        <option value="" >12 Classe</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" name="" class="form-control" placeholder="Escola anterior" id="">
+                </div>
+            </div>
+            <!-- Titulo do formulario 1 -->
+            <div class="card-header">
+                <h4 class="text-center">Dados do Encarregado</h4>
+            </div>
+            <div class="row p-4">
+                <div class="col-md-6">
+                    <label for="nome_encarregado" class="form-label">Nome do encarregado</label>
+                    <input type="text" name=""  placeholder="Nome do encarregado" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="numero_telefone"  class="form-label">Numero de Telefone</label>
+                    <input type="tel" name="" placeholder="Numero de Telefone" class="form-control" id="">
+                </div>
+            </div>
+            <div class="row px-4">
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="Email" name=""  placeholder="Email" class="form-control" id="">
+                </div>
+                <div class="col-md-6">
+                    <label for="endereço"  class="form-label">Endereço</label>
+                    <input type="text" name="" placeholder="Endereço" class="form-control" id="">
+                </div>
+            </div>
+            <div class="row px-4">
+                <div class="col-md-12 d-flex flex-row justify-content-end">
+                    <a class="btn btn-pre px-5 mt-3" href="pagamento.html">Terminar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Rodape -->
+    <footer class="p-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    Copyright@ todos direitos reservados.
+                </div>
+                <div class="footer-icons col-md-4 d-flex flex-row justify-content-end align-items-center gap-2">
+                    <a href="www.facebook.com/">
+                        <i class="bi bi-facebook me-2 Fb" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    <a href="www.whatsapp.com/">
+                        <i class="bi bi-whatsapp me-2 Wp" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    <a href="www.instagram.com/">
+                        <i class="bi bi-instagram me-2 Inst" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    <a href="www.twitter.com/">
+                        <i class="bi bi-twitter me-2 X" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

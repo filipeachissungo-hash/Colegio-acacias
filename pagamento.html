@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo_brand.png" type="image/x-icon">
+</head>
+<body>
+    <!-- logo -->
+    <div class="d-flex justify-content-center align-items-center my-0 main-logo">
+        <img src="img/Acacias.png"  width="200px" alt="">
+    </div>
+    <!-- Barra de navegacao -->
+    <div class="d-flex justify-content-between align-items-center nav-bar px-4 py-1">
+        <!-- Menu Principal -->
+        <nav class="mx-auto">
+            <ul class="d-flex list-unstyled  m-0 gap-5">
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="index.html">Pagina Inicial</a>
+                </li>
+
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="pre-inscricao.html">Pré-Inscrição</a>
+                </li>
+
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="pagamento.html">Pagamentos</a>
+                </li>
+
+                <li>
+                    <a class="text-decoration-none text-dark nav-btn" href="sobre-nos.html">Sobre-nós</a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- Botao Login -->
+        <div class="login">
+            <a class="text-decoration-none d-flex align-items-center text-dark gap-1" href="login.html">
+                <i class="bi bi-person log" style="font-size: 1.5em;"><small>Login</small></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Metodos de pagamento -->
+    <div class="container main-content">
+        <form action="" method="post">
+            <div class="card shadow-sm my-4">
+                <div class="card-header">
+                    <h4 class="text-center">Metodos de pagamento</h4>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-success alert-dismissible"  role="alert">
+                        Porfavor, selecione o metodo de pagamento e preenha o campo prentendido!
+                        <button class="btn-close" arial-label="close" data-bs-dismiss="alert"></button>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-6">
+                            <label class="form-label" for="mpesa">M-pesa</label>
+                            <input type="radio" name="methods" id="">
+                            <img src="img/Vodacom.png" style="height: 100px" alt="">
+                            <input type="tel" placeholder="84XXXXXXX" class="form-control my-2" name="" id="">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="movitel">E-mola</label>
+                            <input type="radio" name="methods" id="">
+                            <img src="img/Movitel.png" style="height: 100px" alt="">
+                            <input type="tel" placeholder="86XXXXXXX" class="form-control my-2" name="" id="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="form-label" for="visa">Transferencia Bancaria (Nib)</label>
+                            <input type="radio" name="methods" id="">
+                            <img src="img/Visa.png" style="height: 100px" alt="">
+                            <input type="tel" placeholder="1000.0001.XXXX.XXXX" class="form-control my-2" name="" id="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-end ">
+                            <button class="btn btn-pay px-5 my-2" >Pagar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer text-center">Obrigado por escolher a nossa plataforma!</div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Rodape -->
+    <footer class="p-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    Copyright@ todos direitos reservados.
+                </div>
+                <div class="footer-icons col-md-4 d-flex flex-row justify-content-end align-items-center gap-2">
+                    <a href="www.facebook.com/">
+                        <i class="bi bi-facebook me-2 Fb" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    <a href="www.whatsapp.com/">
+                        <i class="bi bi-whatsapp me-2 Wp" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    <a href="www.instagram.com/">
+                        <i class="bi bi-instagram me-2 Inst" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    <a href="www.twitter.com/">
+                        <i class="bi bi-twitter me-2 X" style="font-size: 1.5em; color: #000000;"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
